@@ -32,7 +32,7 @@ parser.add_argument('--nrow', type=int, help='number of the rows to save images'
 parser.add_argument('--trainfiles', default="train.list", type=str, help='the list of training files')
 parser.add_argument('--dataroot', default="img_align_celeba", type=str, help='path to dataset')
 parser.add_argument('--testfiles', default="test.list", type=str, help='the list of training files')
-parser.add_argument('--testroot', default="img_align_celeba", type=str, help='path to dataset')
+parser.add_argument('--testroot', default="mytest", type=str, help='path to dataset')
 parser.add_argument('--trainsize', type=int, help='number of training data', default=162770)
 #parser.add_argument('--testsize', type=int, help='number of testing data', default=19962)
 parser.add_argument('--testsize', type=int, help='number of testing data', default=32)
